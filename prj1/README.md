@@ -29,6 +29,8 @@ QEMU를 사용하는 개별 실행은 `pintos --qemu ...` 형태로 옵션을 �
 
 ## 자료와 검증
 
+- [과제 설명](docs/assignment.pdf)
+- [Pintos 설치 안내](../docs/pintos-setup.pdf)
 - [제출 보고서](docs/report.docx)
 - [Pintos 저작권 및 라이선스](LICENSE), [원 저자](AUTHORS)
 - 2026-10-08: Ubuntu에서 `src/userprog`의 커널 빌드 통과.
