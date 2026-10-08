@@ -6,7 +6,7 @@
 
 주요 구현 파일은 `src/userprog/syscall.c`, `src/userprog/process.c`, `src/threads/thread.h`입니다.
 `src/lib/`, `src/devices/`, `src/tests/`, Makefile과 실행 도구는 Pintos의 제공 코드와 테스트를 포함합니다.
-각 프로젝트는 해당 단계 제출 당시의 독립적인 `src/` 사본입니다.
+각 프로젝트의 `src/`는 해당 단계의 독립적인 커널 소스입니다.
 
 ## 빌드와 실행
 
@@ -32,5 +32,5 @@ QEMU를 사용하는 개별 실행은 `pintos --qemu ...` 형태로 옵션을 �
 - [제출 보고서](docs/report.docx)
 - [Pintos 저작권 및 라이선스](LICENSE), [원 저자](AUTHORS)
 - 2026-10-08: Ubuntu에서 `src/userprog`의 커널 빌드 통과.
-- 이 정리 환경에는 에뮬레이터가 없어 `make check`와 전체 부팅 테스트를 다시 실행하지 않았습니다.
-  기존 코드에는 컴파일 경고가 있으며, 빌드 통과가 모든 테스트 통과를 의미하지 않습니다.
+- 에뮬레이터 기반 `make check`와 부팅 테스트는 미실행입니다.
+  컴파일 경고는 기존 코드에서 발생했습니다.
