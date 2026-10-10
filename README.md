@@ -31,9 +31,4 @@ CSE4070-Operating-Systems/
 ├── prj4/  # Virtual Memory
 ```
 
-## 자료 출처
-
-프로젝트에는 구현 소스와 수업 제공 스켈레톤·테스트 도구가 포함됩니다.
-수업 제공 코드와 도구의 출처·라이선스는 각 원본 파일의 표기를 따릅니다.
-
 [빌드 및 테스트](docs/verification.md)
